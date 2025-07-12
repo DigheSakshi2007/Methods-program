@@ -1,0 +1,88 @@
+package For;
+class FYBCS
+{
+	short StudRollno = 110;
+	String StudName = "Sham";
+	String ClassName = "FYBCS";
+	String ClassTeacherName = "Mrs.Satpute";
+	int StudentPhysicsMark = 77;
+	int StudentMathMark = 84;
+	int StudentChemistyMark = 90;
+	int StudentBiologyMark = 94 ;
+  void StudInfo()
+  {
+	 System.out.println("");
+	 System.out.println("Student Information for FYBCS");
+	 System.out.println("Student Roll no is "+StudRollno);
+	 System.out.println("Student Name is "+StudName);
+	 System.out.println("Student ClassName is "+ClassName);
+	 System.out.println("Student TeacherName is "+ClassTeacherName);
+	 System.out.println("Student StudentPhysicsMark is "+StudentPhysicsMark);
+	 System.out.println("Student StudentMathMark is "+StudentMathMark);
+	 System.out.println("Student StudentChemistyMark is "+StudentChemistyMark);
+	 System.out.println("Student StudentBiologyMark is "+StudentBiologyMark);
+	 
+  }
+}
+class SYBCS
+{
+	short StudRollno = 120;
+	String StudName = "Ram";
+	String ClassName = "SYBCS";
+	String ClassTeacherName = "Mrs.Tambe";
+	int StudentPhysicsMark = 67;
+	int StudentMathMark = 48;
+	int StudentChemistyMark = 80;
+	int StudentBiologyMark = 64 ;
+	void StudInfo() 
+	{
+		 System.out.println("");
+		 System.out.println("Student Information for SYBCS");
+		 System.out.println("Student Roll no is "+StudRollno);
+		 System.out.println("Student Name is "+StudName);
+		 System.out.println("Student ClassName is "+ClassName);
+		 System.out.println("Student TeacherName is "+ClassTeacherName);
+		 System.out.println("Student StudentPhysicsMark is "+StudentPhysicsMark);
+		 System.out.println("Student StudentMathMark is "+StudentMathMark);
+		 System.out.println("Student StudentChemistyMark is "+StudentChemistyMark);
+		 System.out.println("Student StudentBiologyMark is "+StudentBiologyMark);
+		 
+	}
+}
+class TYBCS
+{
+	short StudRollno = 130;
+	String StudName = "Komal";
+	String ClassName = "TYBCS";
+	String ClassTeacherName = "Mrs.Khilari";
+	int StudentPhysicsMark = 70;
+	int StudentMathMark = 50;
+	int StudentChemistyMark = 55;
+	int StudentBiologyMark = 30;
+	void StudInfo() 
+	{
+	 System.out.println("");
+	 System.out.println("Student Information for TYBCS");
+	 System.out.println("Student Roll no is "+StudRollno);
+	 System.out.println("Student Name is "+StudName);
+	 System.out.println("Student ClassName is "+ClassName);
+	 System.out.println("Student ClassTeacherName is "+ClassTeacherName);
+	 System.out.println("Student StudentPhysicsMark is "+StudentPhysicsMark);
+	 System.out.println("Student StudentMathMark is "+StudentMathMark);
+	 System.out.println("Student StudentChemistyMark is "+StudentChemistyMark);
+	 System.out.println("Student StudentBiologyMark is "+StudentBiologyMark);
+	} 
+}
+public class Student
+{
+	public static void main(String[] args) 
+	{
+		FYBCS f1 = new FYBCS();
+		SYBCS s1 = new SYBCS();
+		TYBCS t1 = new TYBCS();
+		f1.StudInfo();
+		s1.StudInfo();
+		t1.StudInfo();
+		}
+  
+}
